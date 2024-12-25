@@ -9,8 +9,8 @@ from datetime import datetime  # Import datetime module for timestamp
 from selenium.webdriver.chrome.options import Options  # Import Options
 
 # Initialize the WebDriver (make sure to adjust the path to your WebDriver and Chrome browser)
-driver_path = r'C:\Users\Sargo\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe'  # Update this path
-chrome_path = r'C:\Program Files\Google\Chrome\Application\chrome.exe'  # Update this path
+driver_path = r'C:PATH\TO\CHROMEDRIVER\EXE'  # Update this path
+chrome_path = r'C:\Program Files\Google\Chrome\Application\chrome.exe'  # Update this path. This is the usualy path for Chrome EXE though.
 
 # Set Chrome options
 chrome_options = Options()
@@ -27,7 +27,7 @@ driver.get(url)
 time.sleep(3)  # Adjust this based on your internet speed or implement WebDriverWait for dynamic loading
 
 # Initialize Yelp API client
-api_key = 'xzLVZmJCOC6UYLPE-Cqyv8uDFcLDoMYvv_8yIb1O0YgrpYWPyv72ekOeo8FaKLFGI7XiHVBnzOVdEQ_7uhMvJVctIhLAs90Qg9w1VlFtWSbSbebM8FolhN7hsD5sZ3Yx'  # Replace with your actual Yelp API key
+api_key = 'INSERT YOUR YELP API KEY'  # Replace with your actual Yelp API key
 yelp = yelpapi.YelpAPI(api_key)
 
 # Search for restaurants in a specific location
