@@ -1,6 +1,6 @@
 # zapRestaurantScraper
 
-##This is a forked project from Sagi Nevet
+## This is a forked project from Sagi Nevet
 
 zapRest Scraper is a Python tool for scraping restaurant information from [zapRest](https://www.rest.co.il/restaurants/israel/).
 It uses Selenium for web scraping and Pandas for data manipulation.
